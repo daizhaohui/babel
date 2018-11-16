@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "auto-assign": "npx babel  ./src/babel-plugin-auto-assign/demo.js  --out-file ./output/autoAssignDemo.js"
+    "auto-assign": "npx babel demo.js  --out-file ./output/autoAssignDemo.js"
   },
   "repository": {
     "type": "git",
