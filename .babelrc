@@ -1,8 +1,8 @@
 {
    "presets": ["@babel/preset-env"],
-   "plugins": [
+   "plugins": ["auto-assign",
       ["@babel/plugin-proposal-decorators", {
          "legacy": true
-      }], "auto-assign"
+      }]
    ]
 }

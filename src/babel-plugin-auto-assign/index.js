@@ -8,17 +8,14 @@ module.exports = function (babel) {
             },
             FunctionDeclaration(path, state) {
                 //console.log(`name:${path.node.name}`);
-                console.log('FunctionDeclaration');
+                //console.log('FunctionDeclaration');
             },
             BinaryExpression(path) {
-                console.log('BinaryExpression');
+                //console.log('BinaryExpression');
             },
             Program(path, file) {
-                console.log('Program');
+                //console.log('Program');
             }
-            // Identifier(path) {
-            //     console.log('Identifier');
-            // }
 
         }
     };
