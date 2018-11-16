@@ -1,0 +1,31 @@
+{
+  "name": "bable-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "auto-assign": "npx babel  ./src/babel-plugin-auto-assign/demo.js  --out-file ./output/autoAssignDemo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daizhaohui/babel.git"
+  },
+  "author": "daizhaohui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daizhaohui/babel/issues"
+  },
+  "homepage": "https://github.com/daizhaohui/babel#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "babel-plugin-auto-assign": "file:src/babel-plugin-auto-assign/babel-plugin-auto-assign-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "jest": "^23.6.0"
+  }
+}

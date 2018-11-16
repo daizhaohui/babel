@@ -1,0 +1,17 @@
+{
+  "name": "babel-plugin-auto-assign",
+  "version": "1.0.0",
+  "description": "babel-plugin-auto-assign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "author": "daizhaohui",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.6"
+  }
+}
